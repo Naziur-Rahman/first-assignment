@@ -5,15 +5,20 @@ body{
 h1{
     font-size: 50px;
 }
+h3{
+    font-weight: 700;
+}
 #bg-img{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
 }
+
 .orange{
     color: coral;
 }
-section{
+.fx-container{
     display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -25,18 +30,46 @@ section{
 p{
     font-weight: 600;
     color: cornflowerblue;
+    line-height: 30px;
+    margin-bottom: 80px;
 }
 .order-btn{
     text-decoration:none;
     background-image:linear-gradient(orange,rgba(202, 90, 68, 0.822));
-    padding: 10px 40px;
-    border-radius: 5px;
+    padding: 20px 40px;
+    border-radius: 50px;
     color: white;
     margin-top: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .top-banner{
     background-image: url(images/);
 }
 .person{
     height: 600px;
+}
+.about{
+    margin-top: 50px;
+}
+.recepies{
+    text-align: center;
+   
+}
+.ot-width{
+    width: 33%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 20px rgb(223 222 222);
+    box-sizing: border-box;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+.re-pic{
+    width: 100%;
+    height: 500px;
+    border-radius: 20px;
+}
+#footer{
+    text-align: center;
 }
